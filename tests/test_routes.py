@@ -11,7 +11,7 @@ def test_base_route():
     url = '/'
 
     response = client.get(url)
-    assert response.get_data() == b'Hello, World!   Post the key for further access'
+    assert response.get_data() == b'Hello, World!'
     assert response.status_code == 200
 
 
