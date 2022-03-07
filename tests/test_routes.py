@@ -1,7 +1,7 @@
 from flask import Flask
 import json
 
-from route.routes import configure_routes
+from projects.routes import configure_routes
 
 
 def test_base_route():
